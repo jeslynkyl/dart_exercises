@@ -1,0 +1,20 @@
+==== Store Purchase Receipt ====
+Customer: Jeslyn Kyl Sesma
+Item: Wireless Mouse x 4 at PHP 49.50 each
+Member: true
+Subtotal: PHP 198.00
+Discount: PHP 19.80
+Total: PHP 178.20
+Payment: PHP 200.00
+Change: PHP 21.80
+--- Pack Breakdown ---
+Full packs of 3: 1
+Loose items left over: 1
+--- Checks ---
+Is the total over 100? true
+Is the payment enough? true
+Is the payment exact? false
+Are there loose items? true
+--- After adding one more item ---
+New Quantity: 5
+New Total: PHP 222.75
