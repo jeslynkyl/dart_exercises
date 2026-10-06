@@ -1,0 +1,6 @@
+name: dart_exercises
+description: Week 7 Dart Exercises - Store Purchase Receipt.
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
