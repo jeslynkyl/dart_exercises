@@ -1,4 +1,6 @@
 void main() {
+  
+  //variables
   String studentName='Jeslyn Kyl Sesma';
   String itemName='Wireless Mouse';
   int quantity=4;
@@ -8,6 +10,7 @@ void main() {
   double payment=200.0;
   int itemsPerPack=3;
   
+  //operators
   double subtotal=quantity*unitPrice;
   double discountAmount=subtotal*memberDiscRate;
   double total=subtotal-discountAmount;
@@ -43,9 +46,12 @@ void main() {
   print('Is the payment exact? $isExactPayment');
   print('Are there loose items? $hasLooseItems');
   
+  //increment operator
   quantity++;
   double newTotal=quantity*unitPrice*(1-memberDiscRate);
   print('--- After adding one more item ---');
   print('New Quantity: $quantity');
   print('New Total: PHP ${newTotal.toStringAsFixed(2)}');
+}
+);
 }
